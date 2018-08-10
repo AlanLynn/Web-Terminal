@@ -33,6 +33,7 @@ function processInput(inputString) {
 
 class Terminal {
   constructor(outputElementId, printDelayMs, maxLines) {
+    // maxLines: The maximum number of lines to keep in memory (not on screen)
     this.outputElementId = outputElementId;
     this.printDelayMs = printDelayMs;
     this.maxLines = maxLines;
